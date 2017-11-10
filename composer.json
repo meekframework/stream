@@ -1,0 +1,39 @@
+{
+    "name": "nbish11/meek-stream",
+    "type": "library",
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3",
+        "phpdocumentor/phpdocumentor": "^2.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nathan Bishop",
+            "email": "nbish11@hotmail.com",
+            "homepage": "https://github.com/nbish11",
+            "role": "Developer"
+        }
+    ],
+    "bin": [],
+    "scripts": {
+        "test": [
+            "phpunit"
+        ],
+        "generate": [
+            "phpdoc -d ./src -t ./docs --template=responsive-twig"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Meek\\Stream\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Meek\\Stream\\": "tests/"
+        }
+    }
+}

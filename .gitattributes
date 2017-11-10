@@ -1,0 +1,21 @@
+# https://github.com/alexkaratarakis/gitattributes
+# Common settings that generally should always be used with your language specific settings
+
+# Auto detect text files and perform LF normalization
+# http://davidlaing.com/2012/09/19/customise-your-gitattributes-to-become-a-git-ninja/
+* text=auto
+
+## SOURCE CODE
+*.php text
+
+## DOCUMENTATION
+*.md text
+
+## CONFIGS
+.editorconfig	text
+.gitattributes  text
+.gitconfig		text
+.gitignore		text
+*.json			text
+*.xml			text
+*.yml			text
