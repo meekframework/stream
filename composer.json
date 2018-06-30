@@ -1,5 +1,5 @@
 {
-    "name": "nbish11/meek-stream",
+    "name": "meekframework/stream",
     "type": "library",
     "require": {
         "php": "^7.1"
